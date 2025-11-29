@@ -1,10 +1,10 @@
 const display = document.getElementById('display');
 
-// Βεβαιωνόμαστε ότι η οθόνη ξεκινά με μηδέν 
+// We make sure that the input starts with 0
 if (!display.value) display.value = '0';
 
 function appendToDisplay(input){
-    //Αποφεύγουμε την προσθήκη πολλαπλών μηδενικών στην αρχή και χειριζόμαστε τα σφάλματα
+    //We avoid adding multiple leading zeros and handle errors
     if (display.value === '0' || display.value === 'Error') {
         display.value = input;
     } else {
