@@ -8,7 +8,8 @@
 </head>
 <body>
     <div id="calculator">
-        <input id="display" readonly>
+        <h1 id="title">Calculator Project</h1>
+        <input id="display" readonly value="0">
         <div id="keys">
             <button onclick="appendToDisplay('+')" class="opperator-button">+</button>
             <button onclick="appendToDisplay('7')" >7</button>
@@ -25,7 +26,7 @@
             <button onclick="appendToDisplay('/')" class="opperator-button">/</button>
             <button onclick="appendToDisplay('0')" >0</button>
             <button onclick="calculate()">=</button>
-            <button onclick="ClearDisplay()" class="opperator-button">C</button>
+            <button onclick="clearDisplay()" class="opperator-button">C</button>
         </div>
 
     </div>

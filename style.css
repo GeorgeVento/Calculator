@@ -55,3 +55,23 @@ button:active{
 .opperator-button:active{
     background-color: #beb3ba;
 }
+
+/*Στυλ για τον τίτλο*/
+#calculator #title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.4rem;
+    margin: 18px 24px 8px 24px;
+    text-align: center;
+    color: #032b56;
+    background: linear-gradient(90deg, #fff8dc, #ffecb3);
+    padding: 10px 18px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(3, 43, 86, 0.12);
+    letter-spacing: 1px;
+}
+
+@media (max-width: 480px){
+    #calculator #title{ font-size: 1.6rem; padding: 8px 12px; margin: 12px; }
+    #display{ font-size: 3rem; padding: 12px; }
+    button{ width: 80px; height: 80px; font-size: 2rem; border-radius: 40px; }
+}
